@@ -1,6 +1,6 @@
-#define BLYNK_TEMPLATE_ID "TMPL3Vd5jKble"
-#define BLYNK_TEMPLATE_NAME "IOT 2"
-#define BLYNK_AUTH_TOKEN "P3rgiV4ARYqMvyhFakd5E9ckKpAW-Pj0"
+#define BLYNK_TEMPLATE_ID "(add ID)"
+#define BLYNK_TEMPLATE_NAME "(add name)"
+#define BLYNK_AUTH_TOKEN "(add auth token)"
 
 #include <ESP8266WiFi.h>
 #include <BlynkSimpleEsp8266.h>
@@ -11,8 +11,8 @@
 // Blynk and Wi-Fi configuration
 #define BLYNK_PRINT Serial
 char auth[] = BLYNK_AUTH_TOKEN;
-char ssid[] = "Vaishak's Galaxy A52s 5G";
-char pass[] = "jyky7928";
+char ssid[] = "(add network name)";
+char pass[] = "(add network password)";
 
 // LCD and sensor setup
 LiquidCrystal_I2C lcd(0x27, 16, 2);
